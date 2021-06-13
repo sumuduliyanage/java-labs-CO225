@@ -1,0 +1,12 @@
+1. N number of comparisons are needed.
+
+2. Yes, it changes with the number of elements in a set.We give the output in FIFO manner. When we remove the first element we want to copy the rest of elements into front and we should make the last element a null. So, the number of operations to remove an element depends on the number of elements in the set.
+
+3. Yes, we can improve the performance of add method. When the set is sorted we can use Binary Search to check whether an particular element is in the set. Then we don't need to do N comparisons when there are N number of elements in the set. We can do it doing log(N)(base 2) comparisons using binary serach.
+
+4.Option 1 is better
+Option 1 is more efficient, since it has only one comparison compared to option 2.
+And it gets rid of the corner cases at the beginning of the code. And it increases the code readibility.
+
+5. Yes, We can use Java annotation to get rid of -Xlint flag.
+Here, we added @SuppressWarnings("unchecked") annotation to get rid of -Xlint flag.

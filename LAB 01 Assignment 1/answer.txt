@@ -1,0 +1,8 @@
+Should the average percentage attendance be 50%? Explain. 
+
+No, the average percentage doesn't need to be 50% always.
+The average percentage directly depends on the attendence.
+Attendence depends on the assigned random numbers.
+So, the average percentage is not 50% always.Sometimes,It can be 50% according to the random numbers assigned. It changes.
+when the file is compiled in different times, the average percentage also changes ,because 
+differnt random numbers between 0 and 45 is assigned each time of compilation.
